@@ -1,0 +1,26 @@
+package sec03.exam01;
+
+public class PromotionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte bytevalue = 10;
+		int intvalue = bytevalue;
+		
+		System.out.println("intvalue: " + intvalue);
+		
+		char charValue = '가';
+		intvalue = CharValue;
+		System.out.println("가의 유니코드: ", intvalue);
+		
+		intvalue = 50;
+		long Value = intvalue;
+		float floatValue = Value;
+		System.out.println("floatValue: " + floatValue);
+		
+		floatValue = 100.5f;
+		double doubleValue = floatValue;
+		System.out.println("doubleValue: " + doubleValue);
+	}
+
+}
